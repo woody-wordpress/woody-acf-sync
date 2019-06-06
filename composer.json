@@ -1,0 +1,20 @@
+{
+    "name": "raccourci/woody-acf-sync",
+    "type": "wordpress-plugin",
+    "description": "A WP CLI command to synchronize ACF fields",
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "Léo POIROUX",
+        "email": "leo@raccourci.fr"
+    }],
+    "require": {
+        "php": ">=5.6"
+    },
+    "config": {
+        "secure-http": false,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "files": ["woody-acf-sync.php"]
+    }
+}

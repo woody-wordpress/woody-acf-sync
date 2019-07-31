@@ -2,8 +2,8 @@
 
 /**
  * Plugin Name: Woody ACF Sync
- * Plugin URI: https://github.com/raccourci/woody-acf-sync
- * Version: 1.2
+ * Plugin URI: https://github.com/woody-wordpress/woody-acf-sync
+ * Version: 1.3
  * Description: A WP CLI command to synchronize ACF fields
  * Author: Raccourci Agency
  * Author URI: https://www.raccourci.fr

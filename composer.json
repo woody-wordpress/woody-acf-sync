@@ -1,5 +1,5 @@
 {
-    "name": "raccourci/woody-acf-sync",
+    "name": "woody-wordpress/woody-acf-sync",
     "type": "wordpress-plugin",
     "description": "A WP CLI command to synchronize ACF fields",
     "license": "GPL-2.0",

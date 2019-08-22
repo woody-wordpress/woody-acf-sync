@@ -12,7 +12,7 @@
 
 A WP CLI command to synchronize ACF fields
 
-## 👉🏻 Installation & Usage
+## :fire: Installation & Usage
 
 First, install "Woody ACF Sync" via the Composer package manager:
 ```bash
@@ -26,7 +26,7 @@ Synchronize the fields with the WP Cli command:
 wp acf sync
 ```
 
-## 👏 Contributors
+## :metal: Contributors
 
 Thank you to all the people who have already contributed to Woody ACF Sync !
 Special thank to Jesse Pearson for his inspirational topic on this forum
@@ -37,11 +37,11 @@ For future contributors, please read our [Contributor Covenant Code of Conduct](
 Header photo by [John Lee on Unsplash](https://unsplash.com/@john_artifexfilms?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)<br/>
 [![Header photo by John Lee on Unsplash](https://img.shields.io/badge/John%20Lee-black.svg?style=flat-square&logo=unsplash&logoWidth=10)](https://unsplash.com/@john_artifexfilms?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
 
-## 🆓 License
+## :bookmark: License
 
 Woody ACF Sync is open-sourced software licensed under the [GPL2](LICENSE).
 
-## 💝 Sponsoring
+## :crown: Sponsoring
 
 Woody is a digital ecosystem co-financed by the Regional Tourism Committee of Brittany for [eBreizh Connexion](http://www.ebreizhconnexion.bzh)
 

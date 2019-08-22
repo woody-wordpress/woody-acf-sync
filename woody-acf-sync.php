@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Woody ACF Sync
  * Plugin URI: https://github.com/woody-wordpress/woody-acf-sync
- * Version: 1.3
+ * Version: 1.3.3
  * Description: A WP CLI command to synchronize ACF fields
  * Author: Raccourci Agency
  * Author URI: https://www.raccourci.fr
@@ -20,7 +20,7 @@
 
 class Woody_ACF_Sync_Command
 {
-    function sync($args, $assoc_args)
+    public function sync($args, $assoc_args)
     {
         $groups = acf_get_field_groups();
         $sync   = [];

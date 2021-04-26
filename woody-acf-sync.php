@@ -17,9 +17,8 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of.
  */
 
-class Woody_ACF_Sync_Command
-{
-    public function sync($args, $assoc_args)
+if (!function_exists('Woody_ACF_Sync_Command')) {
+    function Woody_ACF_Sync_Command()
     {
         $groups = acf_get_field_groups();
         $sync   = [];
@@ -59,5 +58,5 @@ class Woody_ACF_Sync_Command
 }
 
 if (defined('WP_CLI') && WP_CLI) {
-    WP_CLI::add_command('acf', 'Woody_ACF_Sync_Command');
+    WP_CLI::add_command('acf sync', 'Woody_ACF_Sync_Command');
 }

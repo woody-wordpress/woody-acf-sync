@@ -46,12 +46,14 @@ if (!function_exists('Woody_ACF_Sync_Command')) {
         }
 
         if (!empty($sync)) {
-            foreach ($sync as $key => $v) {
+            foreach (array_keys($sync) as $key) {
                 if (acf_have_local_fields($key)) {
                     $sync[$key]['fields'] = acf_get_local_fields($key);
                 }
+
                 acf_import_field_group($sync[$key]);
             }
+
             WP_CLI::success('ACF has been successfully synchronized');
         }
     }
